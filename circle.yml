@@ -17,4 +17,4 @@ deployment:
     commands:
       - docker login -u xili36 -p $DOCKER_PASSWORD -e li_xiuqing@hotmail.com
       - docker tag devops_web xili36/develop
-      - docker push  xili36/devops
+      - docker push xili36/develop
