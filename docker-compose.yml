@@ -1,0 +1,9 @@
+
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "9000:9000"
+    environment:
+      - MYSQL='mysql://test:test@55.55.55.55:3306/native_avenue'
